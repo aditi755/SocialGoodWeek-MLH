@@ -1,0 +1,179 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+    background-color: #b09253;
+}
+
+header {
+	background-color: #007bff;
+	color: #fff;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+nav ul {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+    
+}
+
+nav ul li {
+	margin-left: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Hero section */
+
+.hero {
+	background-image: url('hero.jpg');
+	background-size: cover;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 300px;
+	text-align: center;
+    margin-top: 2px;
+}
+
+.hero h2 {
+	font-size: 40px;
+	margin-bottom: 0px;
+    margin-left: 100px;
+    color: black;
+}
+
+.hero p {
+	font-size: 20px;
+	margin-bottom: 30px;
+    margin-left: 30px;
+    color: black;
+}
+
+.hero button {
+	background-color: #007bff;
+	border: none;
+	color: white;
+	font-size: 16px;
+	padding: 10px 20px;
+	cursor: pointer;
+    margin-left: 30px;
+}
+
+.hero button:hover {
+	background-color: #007bff;
+	color: #fff;
+}
+.main{
+    margin-top: 10px;
+}
+/* About section */
+
+.about {
+	background-color:#b09253;
+	padding: 50px;
+	text-align: center;
+}
+
+.about h2 {
+	font-size: 36px;
+	margin-bottom: 30px;
+}
+
+.about p {
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+.about button {
+	background-color: #007bff;
+	border: none;
+	color: #fff;
+	font-size: 16px;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+.about button:hover {
+	background-color: #0056b3;
+}
+
+/* Get Involved section */
+
+.get-involved {
+	background-color: #b09253;
+	padding: 50px;
+	text-align: center;
+}
+
+.get-involved h2 {
+	font-size: 36px;
+	margin-bottom: 30px;
+}
+
+.get-involved p {
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+.get-involved button {
+	background-color: #007bff;
+	border: none;
+	color: #fff;
+	font-size: 16px;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+.get-involved button:hover {
+	background-color: #0056b3;
+}
+
+/* Donate section */
+
+.donate {
+	background-color: #007bff;
+	color: #fff;
+	padding: 50px;
+	text-align: center;
+}
+
+.donate h2 {
+	font-size: 36px;
+	margin-bottom: 30px;
+}
+
+.donate p {
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+.donate button {
+	background-color: #fff;
+	border: none;
+	color: #007bff;
+	font-size: 16px;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+.donate button:hover {
+	background-color: #007bff;
+	color: #fff;
+}
